@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.card-img{
+    height: 720px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h5{
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 500%;
+}
+
+.card-text{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 6%;
+}
+
+.card-text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.card-text a:hover{
+    color: gold;
+}
+
+/* button */
+.button {
+  background-color: rgba(0, 0, 0, 0); 
+  border: 2px solid #ffff;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.button:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+/* gallery */
+.conten1{
+    display: flex;
+    
+}
+
+.conten1 .desc {
+    width: 50%;
+    margin: 12% 10%;
+}
+
+.desc h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+
+
+.conten1 .gallery{
+    width: 50%;
+    margin: 10% 8%;
+}
+
+.gallery img{
+    margin-bottom: 4px;
+}
+
+.conten2{
+    background-color: rgb(53, 52, 52);
+    color: gold ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.conten2 h1{
+    font-size: 54px ;
+    font-weight: bold;
+    color: rgb(219, 174, 60);
+    padding: 4% 0% ;
+}
+
+.conten2 p{
+    padding: 0 10% 2% 10% ;
+    color: #eeee;
+}
+
+.conten2 img{
+    padding-bottom: 3% ;
+}
+
+.conten2 h4{
+    padding-bottom: 4%;
+}
